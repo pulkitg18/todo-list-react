@@ -1,0 +1,13 @@
+.todo__list {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  margin-left: 250px !important;
+}
+@media screen and (max-width: 700px) {
+  .todo__list {
+    margin-left: 0 !important;
+    width: fit-content !important;
+  }
+}
